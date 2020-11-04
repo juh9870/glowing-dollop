@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data.IO.Implementation.FileIoSettings">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.Implementation.FileDataReader">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.Implementation.FileDataWriter">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.DataProcessor">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.DataReader">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.DataWriter">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.IO.Utils">
+    <Position X="8.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Data.IO.Utils.InvalidSerializedDataException" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Data.Serialization.SerializedData">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Data.Serialization.SerializedData.Field" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logic.Person">
+    <Position X="14.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logic.Baker">
+    <Position X="21.5" Y="5.5" Width="1.75" />
+    <InheritanceLine Type="Logic.Person" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="15.479" Y="9.372" />
+        <Point X="15.479" Y="10.092" />
+        <Point X="22.375" Y="10.092" />
+        <Point X="22.375" Y="8.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logic.Entrepreneur">
+    <Position X="19" Y="5.5" Width="2.25" />
+    <InheritanceLine Type="Logic.Person" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="15.625" Y="9.372" />
+        <Point X="15.625" Y="9.944" />
+        <Point X="20.125" Y="9.944" />
+        <Point X="20.125" Y="8.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logic.Student">
+    <Position X="16.75" Y="5.5" Width="2" />
+    <InheritanceLine Type="Logic.Person" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.771" Y="9.372" />
+        <Point X="15.771" Y="9.815" />
+        <Point X="17.75" Y="9.815" />
+        <Point X="17.75" Y="8.982" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logic.DataStorage">
+    <Position X="23.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Presentation.ConsoleUtils">
+    <Position X="2" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIQAAAAAAAAAAAIAAAAAAABAAYAAAAAACAAAgAA=</HashCode>
+      <FileName>ConsoleUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presentation.PersonConsoleUtils">
+    <Position X="4" Y="5.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Presentation.PersonConsoleUtils.PersonTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PersonConsoleUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Presentation.PersonConsoleUtils.StudentTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PersonConsoleUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Presentation.PersonConsoleUtils.BakerTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PersonConsoleUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Presentation.PersonConsoleUtils.EntrepreneurTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PersonConsoleUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AKIAAIAAQAAAAAAAEAAABAAAAAIEAAAAAAAACgEAgAA=</HashCode>
+      <FileName>PersonConsoleUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presentation.Program">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presentation.TableOutput&lt;T&gt;">
+    <Position X="2.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABgAAAAAAQAEAAAAAAAIAIAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>TableOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.IO.Implementation.PseudoJsonDataProcessor">
+    <Position X="0.75" Y="2.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="Presentation.Charset" Collapsed="true">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ERIICAAAWCAAAqAIAAAIAAACAAEQAAAwAAAAABAQAAA=</HashCode>
+      <FileName>TableOutput.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Data.IO.ISerializable">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Logic.ISkydiver">
+    <Position X="12.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
